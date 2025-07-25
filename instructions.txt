@@ -1,4 +1,4 @@
-…or create a new repository on the command line
+Pushing code for the first time to a new repository.
 echo "# web-developer-portfolio" >> README.md
 git init
 git add README.md
@@ -10,6 +10,7 @@ git push -u origin main
 
 …or push an existing repository from the command line
 
+Now it is finally good
 git add .
 git commit -m ""
 git push -u origin main 
