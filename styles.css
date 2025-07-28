@@ -44,7 +44,9 @@ nav ul {
 /* HEADER */
 
 .header {
-    background-image: url(images/developer.png);
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: Top left, bottom right ; 
 }
 
 /* BANNER ELEMENTS */
