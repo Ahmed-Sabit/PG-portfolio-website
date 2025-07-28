@@ -41,6 +41,11 @@ nav ul {
     display: flex;
     align-items: center;
 }
+/* HEADER */
+
+.header {
+    background-image: url(images/developer.png);
+}
 
 /* BANNER ELEMENTS */
 .text-area {
