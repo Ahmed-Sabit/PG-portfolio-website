@@ -6,6 +6,13 @@
   font-variation-settings:
     "wdth" 100;
 }
+.bg-color {
+    background-color: #FFF8F3;
+}   
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* NAVIGATION STYLES */
 .head-name {
     color: #FD6E0A;
@@ -47,6 +54,7 @@ nav ul {
     background-image: url(images/developer.png), url(images/header_bg.png);
     background-repeat: no-repeat,no-repeat;
     background-position: Top left, bottom right ; 
+    background-size: auto, 60%;
 }
 
 /* BANNER ELEMENTS */
@@ -68,14 +76,69 @@ nav ul {
     border: 1px solid #FD6E0A;
 }
 .banner-img {
-    width: 580px;
+    width: 560px;
 }
 .banner {
     display: flex;
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-    
+ /* ABOUT ME  */
+ .about-me {
+    padding: 130px 150px 130px 150px;
+    margin: 130px 0px;
+ }
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-des {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+.about-items {
+    display: flex;
+    justify-content: space-evenly;
+}
+.item-title {
+    font-size: 20px;
+    color: #757575;
+}
+.item-des {
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+.aligning {
+    text-align: center;
+}
+
+/* WHAT I DO SECTION */
+
+.card-container {
+    display: flex;
+}
+.card {
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.para {
+    margin: 30px 310px 50px 310px;
+}
+h6{
+    font-size: 20px;
+    color: #181818;
+    font-weight: bold;
+    margin: 30px auto 20px auto;
+}
+.card-writing {
+    font-size: 16px;
+    color: #757575;
+}
+
 
 
 

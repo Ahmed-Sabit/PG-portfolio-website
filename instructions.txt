@@ -15,3 +15,8 @@ git push -u origin main
 git add .
 git commit -m ""
 git push -u origin main 
+
+
+<!-- <Global Styles> -->
+We must set the margin as 0 auto in order to bring content to their center of the website
+
