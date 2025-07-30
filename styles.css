@@ -178,7 +178,48 @@ h6{
     margin: 50px auto 110px auto;
 }
 
+/* Footer STYLES */
 
+.footer {
+    max-width: 1140px;
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+}
+.icon-container {
+    display: flex;
+    gap: 24px;
+}
+.footer-colunm {
+    width: 50%;
+    text-align: left;
+}
+.footer-para {
+    font-size: 16px;
+    color: #474747;
+    margin: 20px 0 30px 0;
+}
+.section-title2 {
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+input[type="email"] , input[type="text"] , textarea {
+    height: 64px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #AAAAAA;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 24px;
+    border: none
+}
+textarea {
+    height: 150px;
+}
 
 
 
